@@ -18,3 +18,13 @@ first-launch
 first-launch-example
 /game.yml
 /dev-settings.yml
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/misc.xml
+.idea/kotlinc.xml
+.idea/jarRepositories.xml
+.idea/icon.png
+.idea/gradle.xml
+.idea/fileTemplates/Kotlin Script Plugin༏ext༏.plugin.kts
+.idea/compiler.xml
+.idea/.name
