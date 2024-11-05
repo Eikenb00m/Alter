@@ -11,9 +11,9 @@ on_obj_option(obj = Objs.TRAPDOOR_1581, option = "close") {
     close(player, player.getInteractingGameObj())
 }
 
-on_obj_option(obj = Objs.TRAPDOOR_1581, option = "climb-down") {
-    player.moveTo(3096, 9867)
-}
+//on_obj_option(obj = Objs.TRAPDOOR_1581, option = "climb-down") {
+//    player.moveTo(3096, 9867)
+//}
 
 fun open(
     p: Player,
