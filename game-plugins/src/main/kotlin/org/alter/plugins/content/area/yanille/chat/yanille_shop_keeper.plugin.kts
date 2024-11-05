@@ -1,6 +1,6 @@
 package org.alter.plugins.content.areas.edgeville.chat
 
-arrayOf(Npcs.SHOP_KEEPER_2821, Npcs.SHOP_ASSISTANT_2822).forEach { shop ->
+arrayOf(Npcs.SHOP_KEEPER, Npcs.SHOP_ASSISTANT).forEach { shop ->
 
     on_npc_option(npc = shop, option = "talk-to") { player.queue { dialog(this) } }
 
@@ -16,5 +16,5 @@ suspend fun dialog(it: QueueTask) {
 }
 
 fun open_shop(p: Player) {
-    p.openShop("Edgeville General Store")
+    p.openShop("Yanille General Store")
 }
