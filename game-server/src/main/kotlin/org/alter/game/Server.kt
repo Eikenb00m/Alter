@@ -89,6 +89,7 @@ class Server {
                 revision = gameProperties.get<Int>("revision")!!,
                 cycleTime = gameProperties.getOrDefault("cycle-time", 600),
                 playerLimit = gameProperties.getOrDefault("max-players", 2048),
+                xpmultiplier = gameProperties.getOrDefault("xpmultiplier", 1),
                 home =
                     Tile(
                         gameProperties.get<Int>("home-x")!!,

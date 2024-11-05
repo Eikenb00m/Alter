@@ -43,6 +43,7 @@ data class GameContext(
     var initialLaunch: Boolean,
     val name: String,
     val revision: Int,
+    val xpmultiplier: Int,
     val cycleTime: Int,
     val playerLimit: Int,
     val home: Tile,
