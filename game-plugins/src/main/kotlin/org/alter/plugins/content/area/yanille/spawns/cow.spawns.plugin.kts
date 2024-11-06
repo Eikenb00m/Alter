@@ -1,6 +1,6 @@
 package org.alter.plugins.content.area.yanille.spawns
 
-/**Giant Rats*/
+/**Cows*/
 spawn_npc(Npcs.COW, 2608, 3113,0, 3, direction = Direction.EAST)
 spawn_npc(Npcs.COW, 2608, 3115,0, 3, direction = Direction.EAST)
 spawn_npc(Npcs.COW, 2608, 3117,0, 3, direction = Direction.EAST)
