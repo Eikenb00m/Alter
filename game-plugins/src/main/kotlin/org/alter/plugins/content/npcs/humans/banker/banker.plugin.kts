@@ -1,4 +1,4 @@
-package org.alter.plugins.content.npcs.banker
+package org.alter.plugins.content.npcs.humans.banker
 
 import org.alter.plugins.content.interfaces.bank.openBank
 
