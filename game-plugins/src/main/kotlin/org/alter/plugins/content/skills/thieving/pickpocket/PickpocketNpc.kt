@@ -37,7 +37,7 @@ enum class PickpocketNpc(
                 Npcs.FARMER_3244,
                 Npcs.FARMER_3114,
             ),
-        experience = 800,
+        experience = 800.0,
         reqLevel = 10,
         rewards =
             arrayOf(
@@ -56,8 +56,8 @@ enum class PickpocketNpc(
                 Npcs.MASTER_FARMER_5731,
                 Npcs.MARTIN_THE_MASTER_GARDENER,
             ),
-        experience = 43.0,
-        reqLevel = 38,
+        experience = 1200.0,
+        reqLevel = 70,
         rewards =
             arrayOf(
                 WeightItem(item = Items.FEATHER, amount = 15..23, weight = COMMON),
