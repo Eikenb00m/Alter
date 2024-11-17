@@ -2,7 +2,7 @@ package org.alter.plugins.content.area.yanille.spawns
 
 spawn_npc(Npcs.FIRE_GIANT, 2604, 9485, 0, 5, Direction.SOUTH)
 spawn_npc(Npcs.FIRE_GIANT_2076, 2607, 9485, 0, 5, Direction.SOUTH)
-spawn_npc(Npcs.FIRE_GIANT_2077, 2604, 9485, 0, 5, Direction.SOUTH)
+spawn_npc(Npcs.FIRE_GIANT_2077, 2620, 9486, 0, 5, Direction.SOUTH)
 spawn_npc(Npcs.FIRE_GIANT, 2612, 9488, 0, 5, Direction.SOUTH)
 spawn_npc(Npcs.FIRE_GIANT_2076, 2611, 9483, 0, 5, Direction.SOUTH)
 spawn_npc(Npcs.FIRE_GIANT_2077, 2616, 9485, 0, 5, Direction.SOUTH)

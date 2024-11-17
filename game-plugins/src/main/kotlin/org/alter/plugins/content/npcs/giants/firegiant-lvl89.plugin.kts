@@ -3,6 +3,9 @@ package org.alter.plugins.content.npcs.giants
 val firegiant_npc_list =
     listOf(
         Npcs.FIRE_GIANT_2076,
+        Npcs.FIRE_GIANT_2077,
+        Npcs.FIRE_GIANT,
+
     )
 
 
