@@ -1,19 +1,12 @@
 package org.alter.plugins.content.npcs.other
 
-import org.alter.plugins.content.combat.isBeingAttacked
-
-/**
- *  @author <a href="https://github.com/CloudS3c">Cl0ud</a>
- *  @author <a href="https://www.rune-server.ee/members/376238-cloudsec/">Cl0ud</a>
- *
- */
-val cow_npc_list =
+val arzinianavatarofmagic_lvl75_npc_list =
     listOf(
         Npcs.ARZINIAN_AVATAR_OF_MAGIC_1235,
     )
 
 
-cow_npc_list.forEach {
+arzinianavatarofmagic_lvl75_npc_list.forEach {
     set_combat_def(it) {
         configs {
             attackSpeed = 4

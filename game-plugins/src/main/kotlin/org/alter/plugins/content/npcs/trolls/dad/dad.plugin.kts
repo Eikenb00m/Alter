@@ -1,12 +1,5 @@
 package org.alter.plugins.content.npcs.trolls.dad
 
-import org.alter.plugins.content.combat.isBeingAttacked
-
-/**
- *  @author <a href="https://github.com/CloudS3c">Cl0ud</a>
- *  @author <a href="https://www.rune-server.ee/members/376238-cloudsec/">Cl0ud</a>
- *
- */
 val dad_npc_list =
     listOf(
         Npcs.DAD_6391,

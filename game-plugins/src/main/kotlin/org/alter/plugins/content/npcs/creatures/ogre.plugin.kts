@@ -1,23 +1,16 @@
 package org.alter.plugins.content.npcs.creatures
 
-import org.alter.plugins.content.combat.isBeingAttacked
-
-/**
- *  @author <a href="https://github.com/CloudS3c">Cl0ud</a>
- *  @author <a href="https://www.rune-server.ee/members/376238-cloudsec/">Cl0ud</a>
- *
- */
-val cow_npc_list =
+val ogre_npc_list =
     listOf(
         Npcs.OGRE,
     )
 
 
-cow_npc_list.forEach {
+ogre_npc_list.forEach {
     set_combat_def(it) {
         configs {
             attackSpeed = 6
-            respawnDelay = 18
+            respawnDelay = 30
             poisonChance = 0.0
             venomChance = 0.0
         }

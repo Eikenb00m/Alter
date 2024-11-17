@@ -1,21 +1,16 @@
 package org.alter.plugins.content.npcs.giants
 
-/**
- *  @author <a href="https://github.com/CloudS3c">Cl0ud</a>
- *  @author <a href="https://www.rune-server.ee/members/376238-cloudsec/">Cl0ud</a>
- *
- */
-val cow_npc_list =
+val mossgiant_npc_list =
     listOf(
         Npcs.MOSS_GIANT,
     )
 
 
-cow_npc_list.forEach {
+mossgiant_npc_list.forEach {
     set_combat_def(it) {
         configs {
             attackSpeed = 6
-            respawnDelay = 18
+            respawnDelay = 30
             poisonChance = 0.0
             venomChance = 0.0
         }
