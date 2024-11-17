@@ -1852,6 +1852,12 @@ object Animation {
     const val ZYGOMITE_DEATH = 3327
     const val ZYGOMITE_HIT = 3325
     const val LIFT_TROPHY = 8537
+    const val MUMMY_WALKING = 1930
+    const val MUMMY_KICK = 5549
+    const val MUMMY_HIT = 5550
+    const val MUMMY_ATTACK = 5554
+    const val MUMMY_DEATH = 5555
+    const val MUMMY_BLOCK = 5556
     // const val 31773 = 31773
     // const val 31774 = 31774
     // const val 31775 = 31775
