@@ -174,7 +174,7 @@ object Mining {
 
     private fun evalEssenceType(level: Int): OreType {
         return when {
-            level >= 30 -> OreType.PURE_ESSENCE
+            //level >= 30 -> OreType.PURE_ESSENCE
             else -> OreType.RUNE_ESSENCE
         }
     }
