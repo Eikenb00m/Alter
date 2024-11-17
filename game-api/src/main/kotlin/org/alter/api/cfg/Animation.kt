@@ -1858,6 +1858,12 @@ object Animation {
     const val MUMMY_ATTACK = 5554
     const val MUMMY_DEATH = 5555
     const val MUMMY_BLOCK = 5556
+    const val BLACK_KNIGHT_TITAN_WALKING = 127
+    const val BLACK_KNIGHT_TITAN_ATTACK = 128
+    const val BLACK_KNIGHT_TITAN_DEFEND = 129
+    const val BLACK_KNIGHT_TITAN_DEATH = 131
+    const val BLACK_KNIGHT_TITAN_MAGIC = 132
+    const val BLACK_KNIGHT_TITAN_TELEPORT = 133
     // const val 31773 = 31773
     // const val 31774 = 31774
     // const val 31775 = 31775
