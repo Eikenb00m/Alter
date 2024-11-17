@@ -37,6 +37,7 @@ val ladders =
         Objs.LADDER_12966,
         Objs.LADDER_16679,
         Objs.LADDER_16684,
+        Objs.LADDER_16681
     )
 
 ladders.forEach { ladder ->
