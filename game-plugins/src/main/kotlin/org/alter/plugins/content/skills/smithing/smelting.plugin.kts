@@ -29,6 +29,7 @@ val smelting = SmeltingAction()
 val standardFurnaces =
     setOf(
         Objs.FURNACE_24009,
+        Objs.SMALL_FURNACE_12655,
     )
 
 /**
