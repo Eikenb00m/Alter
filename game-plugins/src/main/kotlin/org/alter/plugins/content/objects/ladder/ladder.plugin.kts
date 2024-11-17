@@ -113,6 +113,30 @@ fun climbstairs(player: Player) {
 on_obj_option(Objs.TRAPDOOR_14880, option = "climb-down") {
     player.moveTo(3210, 9616, 0)
 }
-on_obj_option(Objs.LADDER_17385, option = "climb-up") {
-    player.moveTo(3210, 3216, 0)
+
+/**Other Ladders*/
+on_obj_option(obj = Objs.LADDER_17384, option = "Climb-Down") {
+    when(player.tile.regionId) {
+        11317 -> { // Water obelisk
+            player.moveTo(x = 2842, z = 9823)
+        }
+
+        else -> player.moveTo(2594, 9486)
+    }
+}
+on_obj_option(obj = Objs.LADDER_17385, option = "Climb-Up")
+{
+    when(player.tile.regionId) {
+        11418 -> { // IceQueen Dungeon
+            player.moveTo(x = 2846, z = 3516)
+        }
+        11673 -> { // Taverley Dungeon
+            player.moveTo(x = 2884, z = 3398)
+        }
+        11417 -> { // Water obelisk
+            player.moveTo(x = 2842, z = 3423)
+        }
+
+        else ->  player.moveTo(x = 2594, z = 3086) //Magic Guild
+    }
 }
