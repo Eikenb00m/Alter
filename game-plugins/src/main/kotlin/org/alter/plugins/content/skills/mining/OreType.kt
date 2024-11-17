@@ -6,8 +6,6 @@ sealed class OreType(val level: Int, val xp: Double, val ore: Int, val respawnTi
     // motherload mine
 
     // amathyst
-    // TODO: Need to add Rune Essence Mine area with portal support
-    // TODO: Need to add teleports into Rune Essence Mine
     object RUNE_ESSENCE : OreType(level = 1, xp = 5.0, ore = 1436, respawnTime = 0..0)
 
     object CLAY : OreType(level = 1, xp = 5.0, ore = 434, respawnTime = 2..3)
